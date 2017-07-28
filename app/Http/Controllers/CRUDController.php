@@ -101,5 +101,6 @@ class CRUDController extends Controller
         $crud = Crud::find($id);
         $crud->delete();
 
-      return redirect('/crud');    }
+      return redirect('/crud');    
+  }
 }
